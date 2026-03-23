@@ -1,137 +1,111 @@
-# Retail Sales Data Analysis – Python
+# 📊 Sales & Customer Intelligence Dashboard
 
-## Project Overview
+This project analyzes a retail sales dataset using **Python and Power BI** to uncover meaningful business insights related to sales trends, customer behavior, and product performance.
 
-This project analyzes a retail sales dataset using **Python** to uncover meaningful business insights such as sales trends, customer behavior, and product performance.
-
-The analysis focuses on cleaning transactional data, performing exploratory data analysis (EDA), and identifying patterns that can support better business decision-making.
-
-This project demonstrates practical skills in:
-
-* Data cleaning and preprocessing
-* Exploratory data analysis
-* Business insight generation
-* Structured data validation
-
-These skills are commonly required in **Data Analytics, Business Intelligence, and Software Quality roles.**
+The goal of this project is to simulate real-world business analysis by combining data processing, exploratory analysis, and interactive dashboard visualization.
 
 
 
-## Objectives
+## 🎯 Objectives
 
-The main goals of this project are:
-
-* Clean and preprocess raw retail transaction data
-* Analyze sales performance across **regions, states, and product categories**
-* Identify **top customers and high-revenue products**
-* Understand **monthly and seasonal sales trends**
-* Calculate key business metrics such as **Average Order Value (AOV)**
+- Clean and preprocess raw retail transaction data  
+- Analyze sales performance across regions and categories  
+- Identify high-value customers and top-performing products  
+- Understand monthly and seasonal sales trends  
+- Build an interactive dashboard for business insights  
 
 
 
-## Dataset Information
+## 🛠️ Tools & Technologies
 
-The dataset contains retail transaction records with the following fields:
-
-* Order ID
-* Order Date
-* Customer Name
-* Segment
-* Country
-* State
-* City
-* Product Category
-* Product Name
-* Sales
-
-**Total records analyzed:** 9,800 transactions
+- Python  
+- Pandas  
+- Jupyter Notebook  
+- Power BI  
+- Data Analysis & Visualization  
 
 
 
-## Data Cleaning & Preparation
+## 📂 Dataset Information
 
-The following preprocessing steps were performed:
+The dataset contains retail transaction records with fields such as:
 
-* Checked and handled **missing values**
-* Converted **date columns** to proper datetime format
-* Created derived columns:
+- Order ID  
+- Order Date  
+- Customer Name  
+- Segment  
+- State  
+- Category  
+- Product Name  
+- Sales  
 
-  * Year
-  * Month
-  * Month Name
-* Removed inconsistencies in the dataset
-* Verified **column data types** to ensure accurate analysis
-
-
-
-## Exploratory Data Analysis
-
-Several analyses were performed to extract insights from the data.
-
-### Sales by Region
-
-Analyzed regional performance to determine which areas generate the highest revenue.
-
-### Sales by State
-
-Examined state-level sales distribution to identify strong and weak markets.
-
-### Product Performance
-
-Ranked products by total sales to identify best-selling products.
-
-### Customer Analysis
-
-Identified customers contributing the highest revenue.
-
-### Monthly Sales Trends
-
-Studied monthly patterns to identify seasonal demand fluctuations.
-
-### Average Order Value
-
-Calculated the average revenue per order to better understand customer purchasing behavior.
+Total records analyzed: **~9,800 transactions**
 
 
 
-## Key Insights
+## 🧹 Data Cleaning & Preparation
 
-* **West region** generated the highest sales.
-* **California** contributed the most revenue among all states.
-* A **small number of customers contribute a large share of total sales**, indicating high-value customers.
-* **November recorded the highest monthly sales**, suggesting strong seasonal demand.
-
-
-
-## Tools & Technologies
-
-* **Python**
-* **Pandas**
-* **Jupyter Notebook**
-* Data Analysis & Exploratory Data Analysis (EDA)
+- Handled missing values  
+- Converted date columns to datetime format  
+- Created derived columns:
+  - Year  
+  - Month  
+  - Month Name  
+- Verified data types and consistency  
 
 
 
-## Project Status
+## 📈 Exploratory Data Analysis
 
-Currently **in progress**.
-Additional analysis and visualizations will be added to expand the project further.
-
-
-
-## Future Improvements
-
-Planned enhancements include:
-
-* Customer segmentation analysis
-* Product category contribution analysis
-* Sales forecasting using predictive models
-* Interactive data visualization dashboard
+- Sales by Region and State  
+- Product performance analysis  
+- Customer revenue analysis  
+- Monthly sales trend analysis  
+- Average Order Value (AOV) calculation  
 
 
 
-## Author
+## 📊 Dashboard Overview (Power BI)
 
-**Glory Vijitha**
-Aspiring Data Analyst | Python | Data Analytics | AI Projects
+The project includes a multi-page interactive dashboard:
 
+### 1. Sales Performance Overview
+- Total Sales, Orders, and AOV  
+- Sales by Category  
+
+### 2. Time Analysis
+- Monthly sales trends  
+- Growth patterns over time  
+
+### 3. Customer Insights
+- Top 10 customers  
+- Sales distribution by customer segment  
+
+### 4. Product Analysis
+- Sales by sub-category  
+- Top-performing products  
+
+
+
+## 💡 Key Insights
+
+- West region generated the highest sales  
+- Technology category is the primary revenue driver  
+- A small group of customers contributes a significant portion of total revenue  
+- Sales show strong seasonal trends with peak periods  
+
+
+## 🚀 Project Outcome
+
+This project demonstrates the ability to:
+
+- Work with real-world datasets  
+- Perform data cleaning and analysis  
+- Extract business insights  
+- Build professional dashboards using Power BI  
+
+
+## 📌 Author
+
+**Glory Vijitha**  
+Aspiring Data Analyst | Python | Data Analytics | AI Projects  
